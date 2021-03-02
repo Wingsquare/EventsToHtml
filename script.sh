@@ -21,7 +21,7 @@ do
 					day_path=$month_path/$day
 					if [ -d $day_path ];
 					then
-						dirs=`ls -t $day_path`
+						dirs=`ls  $day_path`
 						for dir in $dirs
 						do
 							dir_path=$day_path/$dir
